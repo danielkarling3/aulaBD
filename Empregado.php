@@ -91,7 +91,7 @@ class Empregado {
     }
 
     //funcao de cadastro. Recebe os dados atraves da web e faz a insercao no banco
-    public function cadastrar(/*Aqui vamos cadastrar um empregado. Quais parametros preciso????*/) {
+    public function cadastrar($nome, $sobrenome, $email, $cargo, $salario) {
 
         $conn = DataBase::getInstance()->getDb();
 
@@ -101,6 +101,9 @@ class Empregado {
         //dica, vamos receber todos os dados por parametro da funcao, assim:
         //se quero inserir um nome fica,  INSERT INTO Tabela (nome) VALUES ('$variavel'); 
         //nao esqueca das aspas simples
+        
+        INSERT INTO Tabela 
+        
         $sql = "";
         $stmt = $conn->prepare($sql);
 
