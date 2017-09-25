@@ -3,7 +3,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Aula Banco de Dados</title>
+        <title>Cadastro</title>
         <link href="css/bootstrap.min.css" rel="stylesheet">
 
     </head>

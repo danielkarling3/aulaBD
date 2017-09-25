@@ -17,7 +17,7 @@ $empregado = new Empregado();
 
 //chamada da funcao
 //esta incompleta, necessita passar todos os paramentros necessarios para gravar no banco
-$empregado->update($id, $nome, $sobrenome, $email, $cargo, $salario);
+$empregado->update(/*parametros*/);
 
 //script para redirecionar para o index apos executar
 print "<script type = 'text/javascript'> location.href = './index.php' </script>";

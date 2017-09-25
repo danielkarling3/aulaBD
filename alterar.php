@@ -1,17 +1,23 @@
 <?php
 require_once './BD/DataBase.php';
 
-$id = $_GET["id"];
 
+//pegar o id atraves do método get
+$id = $_GET["id"];                                
+
+
+//instancia do banco
 $conn = DataBase::getInstance()->getDb();
 
 //criacao do sql
-$sql = "SELECT * FROM Empregado WHERE id = '$id' LIMIT 1";
+//TAREFA criar um sql que pegue todos os dados de um determinado empregado =============================================
+$sql = "";
 $stmt = $conn->prepare($sql);
 
 //execucao do sql
 $stmt->execute();
 
+//fetch unique pega apenas um resultado
 $resultado = $stmt->fetch(PDO::FETCH_UNIQUE);
 
 

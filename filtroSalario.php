@@ -32,7 +32,7 @@ $min = $_POST["min"];
                     //chamada da funcao precisa de doios parametros
 
 
-                    $empregados->listarFiltroSalario($min, $max);
+                    $empregados->listarFiltroSalario(/*enviar parametros*/);
                     ?>
                 </table>  
             </div>
