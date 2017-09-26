@@ -27,7 +27,7 @@ $nome = $_POST["nome"];
                     //codigo em PHP dentro do HTML, o objeto empregado deve chamar a funcao para listar com filtro no nome
                     //chamada da funcao precisa de um parametro
 
-                    $empregados->listarFiltroNome(/*enviar um parametro*/);
+                    $empregados->listarFiltroNome($nome);
                     ?>
                 </table>  
             </div>

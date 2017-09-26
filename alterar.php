@@ -11,7 +11,7 @@ $conn = DataBase::getInstance()->getDb();
 
 //criacao do sql
 //TAREFA criar um sql que pegue todos os dados de um determinado empregado =============================================
-$sql = "";
+$sql = "Select * from Empregado where id = '$id'";
 $stmt = $conn->prepare($sql);
 
 //execucao do sql
