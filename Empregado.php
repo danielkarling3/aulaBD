@@ -18,7 +18,7 @@ class Empregado {
 
         //criacao do sql
         //TAREFA  criar um sql que pegue todas informacoes de todas as linhas da tabela de Empregado ========================
-        $sql = "Select * FROM Empregado"; 
+        $sql = ""; 
         $stmt = $conn->prepare($sql);
 
         $stmt->execute();
@@ -30,23 +30,23 @@ class Empregado {
         foreach ($resultados as $empregado) {
             echo "<tr  class = 'alert-warning'>"
             . "<td><a href='alterar.php?id=" . $empregado["id"]. "'>" . $empregado["nome"] . " " . $empregado["sobrenome"] . "</td>"
-            . "<td> " . $empregado["email"] . "</td>"   //colocar o email
-            . "<td>" . $empregado["cargo"] . "</td>" // colocar o cargo
-            . "<td>" . $empregado["salario"]. "</td>"  //colocar o salario
+            . "<td> " . $empregado[""] . "</td>"   //colocar o email
+            . "<td>" . $empregado[""] . "</td>" // colocar o cargo
+            . "<td>" . $empregado[""]. "</td>"  //colocar o salario
             . "</tr>";
         }
     }
 
     //funcao listar com filtro no salario, necessita de um valor minimo e maximo
     //para buscar todas as ocorrencias no banco
-    public function listarFiltroSalario($min, $max) {
+    public function listarFiltroSalario(/*parametros*/) {
 
 
         $conn = DataBase::getInstance()->getDb();
 
         //criacao do sql
         // TAREFA criar um sql que retorne todas as informacoes dos Empregados que tem salario entre min e max ================
-        $sql = "Select * From Empregado where salario >= '$min' and salario <= '$max' ";
+        $sql = " ";
         $stmt = $conn->prepare($sql);
 
         $stmt->execute();
@@ -56,16 +56,16 @@ class Empregado {
         foreach ($resultados as $empregado) {
             echo "<tr  class = 'alert-warning'>"
             . "<td><a href='alterar.php?id=" . $empregado["id"]. "'>" . $empregado["nome"] . " " . $empregado["sobrenome"] . "</td>"
-            . "<td> " . $empregado["email"] . "</td>"      // colocar o email
-            . "<td>" . $empregado["cargo"] . " " . "</td>"   //colocar o cargo
-            . "<td>" . $empregado["salario"] . " " . "</td>"   //colocar o salario
+            . "<td> " . $empregado[""] . "</td>"      // colocar o email
+            . "<td>" . $empregado[""] . " " . "</td>"   //colocar o cargo
+            . "<td>" . $empregado[""] . " " . "</td>"   //colocar o salario
             . "</tr>";
         }
     }
 
     //funcao listar com filtro para nome. necessita de um nome/sobrenome ou parte dele 
     //para buscar as ocorrencias no danco
-    public function listarFiltroNome($nome) {
+    public function listarFiltroNome(/*parametro*/) {
 
 
         $conn = DataBase::getInstance()->getDb();
@@ -73,7 +73,7 @@ class Empregado {
 
         //criacao do sql
         //TAREFA criar um sql que recebe todos os dados dos Empregados que tem parte do nome ou sobrenome igual o filtro de entrada
-        $sql = "select * from Empregado where nome LIKE '%$nome%' or sobrenome LIKE '%$nome%'";
+        $sql = "";
         $stmt = $conn->prepare($sql);
 
         $stmt->execute();
@@ -83,15 +83,15 @@ class Empregado {
         foreach ($resultados as $linha) {
             echo "<tr  class = 'alert-warning'>"
             . "<td><a href='alterar.php?id=" . $linha["id"]. "'>" . $linha["nome"] . " " . $linha["sobrenome"] . "</td>"
-            . "<td> " . $linha["id"] . "</td>"    //acho que nao preciso nem falar neah
-            . "<td>" . $linha["nome"] . " " . "</td>"  //acho que nao preciso nem falar neah
-            . "<td>" . $linha["sobrenome"] . " " . "</td>"   //acho que nao preciso nem falar neah
+            . "<td> " . $linha[""] . "</td>"    //acho que nao preciso nem falar neah
+            . "<td>" . $linha[""] . " " . "</td>"  //acho que nao preciso nem falar neah
+            . "<td>" . $linha[""] . " " . "</td>"   //acho que nao preciso nem falar neah
             . "</tr>";
         }
     }
 
     //funcao de cadastro. Recebe os dados atraves da web e faz a insercao no banco
-    public function cadastrar($nome, $sobrenome, $email, $cargo, $salario) {
+    public function cadastrar(/*parametros*/) {
 
         $conn = DataBase::getInstance()->getDb();
 
@@ -103,8 +103,7 @@ class Empregado {
         //nao esqueca das aspas simples
         
         
-        $sql = "INSERT INTO `Empregado`(`nome`, `sobrenome`, `email`, `cargo`, `salario`) "
-                . "VALUES ('$nome','$sobrenome','$email','$cargo','$salario');";
+        $sql = "";
         $stmt = $conn->prepare($sql);
 
         //execucao do sql

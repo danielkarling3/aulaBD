@@ -7,10 +7,10 @@ require_once './Empregado.php';
 
 $id = $_POST["id"];
 $nome = $_POST["nome"];
-$sobrenome = $_POST["sobrenome"];
-$email = $_POST["email"];
-$cargo = $_POST["cargo"];
-$salario = $_POST["salario"];
+$sobrenome = $_POST[""];
+$email = $_POST[""];
+$cargo = $_POST[""];
+$salario = $_POST[""];
 
 //criando o objeto responsavel por alterar e acessar a tabela Empregado
 $empregado = new Empregado();

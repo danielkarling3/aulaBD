@@ -7,16 +7,16 @@ require_once './Empregado.php';
 
 $nome = $_POST["nome"];
 $sobrenome = $_POST["sobrenome"];
-$email = $_POST["email"];          //terminem de receber os dados do formulario
-$cargo = $_POST["cargo"];           //terminem de receber os dados do formulario
-$salario = $_POST["salario"];          //terminem de receber os dados do formulario
+$email = $_POST[""];          //terminem de receber os dados do formulario
+$cargo = $_POST[""];           //terminem de receber os dados do formulario
+$salario = $_POST[""];          //terminem de receber os dados do formulario
 
 //criando o objeto responsavel por alterar e acessar a tabela Empregado
 $empregado = new Empregado();
 
 //chamada da funcao
 //esta incompleta, necessita passar todos os paramentros necessarios para gravar no banco
-$empregado->cadastrar($nome, $sobrenome, $email, $cargo, $salario);
+$empregado->cadastrar(/*enviar parametros*/);
 
 //script para redirecionar para o index apos executar
 print "<script type = 'text/javascript'> location.href = './index.php' </script>";

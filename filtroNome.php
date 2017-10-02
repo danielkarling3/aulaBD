@@ -5,7 +5,7 @@ require_once './Empregado.php';
 $empregados = new Empregado();
 
 //precisa receber uma informacao para enviar a funcao
-$nome = $_POST["nome"];
+$nome = $_POST[""];
 ?>
 
 <html>
@@ -27,10 +27,19 @@ $nome = $_POST["nome"];
                     //codigo em PHP dentro do HTML, o objeto empregado deve chamar a funcao para listar com filtro no nome
                     //chamada da funcao precisa de um parametro
 
-                    $empregados->listarFiltroNome($nome);
+                    $empregados->listarFiltroNome(/* parametro */);
                     ?>
                 </table>  
             </div>
+            <center>
+                <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+                    <img alt="Licença Creative Commons" style="border-width:0"
+                         src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
+                </a>
+                <br />Este trabalho está licenciado com uma Licença <br><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons - Atribuição-NãoComercial-CompartilhaIgual 4.0 Internacional</a>
+            </center>
+            <br>
+            <br>
         </div>
 
 
