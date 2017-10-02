@@ -80,8 +80,16 @@ and open the template in the editor.
                 <img alt="Licença Creative Commons" style="border-width:0"
                      src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
             </a>
-            <br />Este trabalho está licenciado com uma Licença <br><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons - Atribuição-NãoComercial-CompartilhaIgual 4.0 Internacional</a>
-
+            <br />Este trabalho está licenciado com uma Licença <br>
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+                Creative Commons - Atribuição-NãoComercial-CompartilhaIgual 4.0 Internacional
+            </a>
+            <br>
+            <a href="http://lattes.cnpq.br/3657386675052708">Desenvolvido por Daniel Antonio Karling</a>
+            <br>
+            <a href="./plano_de_aula/planoAula.pdf">Plano de Aula</a>
+            <br>
+            <a href="./plano_de_aula/readme.pdf">Read me</a>
         </div>
     </center>
 
