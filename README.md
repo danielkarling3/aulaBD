@@ -36,7 +36,9 @@ configurem seus notebooks corretamente. Em caso de qualquer dúvida, estou a dis
   
   
 Para o dia da aula prática, todos devem realizar o download do projeto incompleto, disponível em 
-https://github.com/danielkarling3/aulaBD, a fim de eralizar as alterações necessárias e finalizá-lo.
+https://github.com/danielkarling3/aulaBD, a fim de realizar as alterações necessárias e finalizá-lo.
+
+
 Obs.: atentem-se na escolha de usuário e senha para acesso ao banco de dados.
   
   
