@@ -1,4 +1,5 @@
-Aula de Banco de Dados\n
+Aula de Banco de Dados
+
 Prezados alunos,
 para realizarmos nossa aula prática serão necessárias algumas configurações: a instalação de um
 servidor web e de banco de dados e de uma IDE (interface de desenvolvimento), sendo a última
@@ -28,3 +29,9 @@ configurem seus notebooks corretamente. Em caso de qualquer dúvida, estou a dis
 Para o dia da aula prática, todos devem realizar o download do projeto incompleto, disponível em
 https://github.com/danielkarling3/aulaBD, a fim de eralizar as alterações necessárias e finalizá-lo.
 Obs.: atentem-se na escolha de usuário e senha para acesso ao banco de dados.
+  
+  
+  Este material está sob licencça Creative Commons 4.0
+ 
+  
+
