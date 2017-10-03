@@ -16,10 +16,10 @@ Porém a conexão, consultas e escrita ao banco deverão ser realizadas em sala 
 códigos MySQL nos arquivos PHP indicados.
 
 
-O banco de dados está disponível como modelo do workbench no,link <https://docs.ufpr.br/~daniel.karling/cursoBD/Cliente.mwb>
+O banco de dados está disponível como modelo do workbench no link <https://docs.ufpr.br/~daniel.karling/cursoBD/Cliente.mwb>
 
 
-A IDE sugerida é o NetBeans, acessível pelo link<https://netbeans.org/kb/docs/php/quickstart_pt_BR.html>. 
+A IDE sugerida é o NetBeans, acessível pelo link <https://netbeans.org/kb/docs/php/quickstart_pt_BR.html>. 
 LEMBRANDO que o servidor Apache que é necessário já estará instalado.
 Seu sistema ficará dentro de htdocs/<sua pasta> (crie uma pasta de sua preferência)
 Sigam o tutorial e iniciem um projeto PHP dando como caminho htdocs/<sua pasta> (conforme
@@ -35,12 +35,12 @@ configurem seus notebooks corretamente. Em caso de qualquer dúvida, estou a dis
 <email do professor>
   
   
-Para o dia da aula prática, todos devem realizar o download do projeto incompleto, disponível em
+Para o dia da aula prática, todos devem realizar o download do projeto incompleto, disponível em 
 https://github.com/danielkarling3/aulaBD, a fim de eralizar as alterações necessárias e finalizá-lo.
 Obs.: atentem-se na escolha de usuário e senha para acesso ao banco de dados.
   
   
-  Este material está sob licencça Creative Commons 4.0
+  Este material está sob licença Creative Commons 4.0
  
   
 
